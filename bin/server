@@ -1,0 +1,4 @@
+#!/bin/bash
+#rails db:migrate
+#bundle install
+bundle exec foreman start -f Procfile.dev
