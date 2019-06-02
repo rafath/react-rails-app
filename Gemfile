@@ -23,7 +23,6 @@ gem 'mini_magick', '~> 4.8'
 # gem 'capistrano-rails', group: :development
 
 gem 'turbolinks', '~> 5'
-gem 'jquery-turbolinks'
 gem 'jquery-rails'
 # gem 'bootstrap-datepicker-rails'
 # gem 'simple_calendar', '~> 2.0'
