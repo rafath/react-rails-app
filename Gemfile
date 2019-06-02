@@ -22,6 +22,13 @@ gem 'mini_magick', '~> 4.8'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'turbolinks', '~> 5'
+gem 'jquery-turbolinks'
+gem 'jquery-rails'
+# gem 'bootstrap-datepicker-rails'
+# gem 'simple_calendar', '~> 2.0'
+
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'foreman'
@@ -47,7 +54,6 @@ gem 'devise'
 gem 'erubis'
 gem 'breadcrumbs_on_rails'
 gem 'execjs'
-gem 'mini_racer'
 gem 'dotenv-rails'
 gem 'httparty'
 
@@ -85,6 +91,6 @@ end
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'mini_racer', platforms: :ruby

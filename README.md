@@ -12,5 +12,8 @@ those commands already run:
 ```
 bundle exec rails webpacker:install
 bundle exec rails webpacker:install:react
-rails generate react_on_rails:install```
+rails generate react_on_rails:install
+```
+
+to run server just fire: bin/server
 
